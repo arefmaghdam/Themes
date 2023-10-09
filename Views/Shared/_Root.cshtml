@@ -8,7 +8,7 @@
 <partial name="_OldInternetExplorerWarning" />
 <main class="c-offcanvas-content-wrap">
     <partial name="Header" />
-    <div class="container page-container">
+    <div class="custom-container page-container">
         @await Component.InvokeAsync("Widget", new { widgetZone = "content_before" })
         @if (IsSectionDefined("Breadcrumb"))
         {
