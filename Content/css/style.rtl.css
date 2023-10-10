@@ -376,7 +376,7 @@ input {
 
 .bg-info,
 .badge-info {
-    background-color: #0091b5 !important;
+    background-color: #44c261 !important;
 }
 .bg-primary,
 .badge-primary {
@@ -541,7 +541,7 @@ span.rotate {
 	transition: opacity 0.3s ease-out;
 	opacity: 0;
 	z-index: 997;
-	background: #0091b5;
+	background: #a319ff;
 	color: #fff;
 }
 #back-to-top .mdi {
@@ -833,7 +833,7 @@ ul.ui-autocomplete li img {
 	font-size: 16px;
 	font-weight: 500;
 	padding: 5px;
-	background: #0091b5;
+	background: #44c261;
 	color: #fff;
 	height: 43px;
 	text-transform: uppercase;
@@ -3884,7 +3884,7 @@ input[type='checkbox'].checkbox-u:checked + label:after {
     font-size: 16px;
     font-weight: 400;
     padding: 5px;
-    background: #0091b5;
+    background: #44c261;
     color: #fff;
     height: 43px;
 }
@@ -4106,7 +4106,7 @@ input[type='checkbox'].checkbox-u:checked + label:after {
 #topcartlink .cart-qty,
 .wishlist-qty {
     border-radius: 100%;
-    background: #28a745;
+    background: #a319ff;
     color: #fff;
     font-size: 9px;
     font-weight: 300;
@@ -4352,7 +4352,7 @@ footer .list-group .list-group-item {
 }
 footer .social-icons a span {
     display: flex;
-    color: #17a2b8;
+    color: #b403fa;
     font-size: 24px;
     transition: all .3s ease;
 }

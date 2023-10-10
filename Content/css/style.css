@@ -368,7 +368,7 @@ input {
 
 .bg-info,
 .badge-info {
-    background-color: #0091b5 !important;
+    background-color: #44c261 !important;
 }
 
 .bg-primary,
@@ -550,7 +550,7 @@ span.rotate {
     -webkit-transition: opacity .3s ease-out;
     opacity: 0;
     z-index: 997;
-    background: #0091b5;
+    background: #a319ff;
     color: #fff;
 }
 
@@ -879,7 +879,7 @@ ul.ui-autocomplete li {
     font-size: 16px;
     font-weight: 500;
     padding: 5px;
-    background: #0091b5;
+    background: #44c261;
     color: #fff;
     height: 43px;
     min-height: 43px;
@@ -4335,7 +4335,7 @@ valid mgs .input-validation-error {
     font-size: 16px;
     font-weight: 400;
     padding: 5px;
-    background: #0091b5;
+    background: #44c261;
     color: #fff;
     height: 43px;
 }
@@ -4588,7 +4588,7 @@ valid mgs .input-validation-error {
 #topcartlink .cart-qty,
 .wishlist-qty {
     border-radius: 100%;
-    background: #28a745;
+    background: #a319ff;
     color: #fff;
     font-size: 9px;
     font-weight: 300;
@@ -4865,7 +4865,7 @@ footer .list-group .list-group-item {
 
 footer .social-icons a span {
     display: flex;
-    color: #17a2b8;
+    color: #b403fa;
     font-size: 24px;
     transition: all .3s ease;
     -webkit-transition: all .3s ease;
