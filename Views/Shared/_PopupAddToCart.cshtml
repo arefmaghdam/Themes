@@ -145,23 +145,23 @@
                 <div class="btn-group offset-md-5 col-md-7 col-12 px-0">
                     @if (Model.CartType == ShoppingCartType.Auctions)
                     {
-                        <button type="button" class="btn btn-outline-info w-100 text-uppercase mr-1 d-flex justify-content-center" onclick="javascript:window.location.reload()" data-dismiss="modal">@T("AddToCart.Continue")</button>
+                        <button type="button" class="btn btn-outline-success w-100 text-uppercase mr-1 d-flex justify-content-center" onclick="javascript:window.location.reload()" data-dismiss="modal">@T("AddToCart.Continue")</button>
                     }
                     else
                     {
-                        <button type="button" class="btn btn-outline-info w-100 text-uppercase mr-1 d-flex justify-content-center" data-dismiss="modal">@T("AddToCart.Continue")</button>
+                        <button type="button" class="btn btn-outline-success w-100 text-uppercase mr-1 d-flex justify-content-center" data-dismiss="modal">@T("AddToCart.Continue")</button>
                     }
                     @if (Model.CartType == ShoppingCartType.ShoppingCart || Model.CartType == ShoppingCartType.OnHoldCart)
                     {
-                        <button type="button" class="btn btn-info w-100 d-flex justify-content-center text-uppercase ml-0 border-left-0" onclick="setLocation('@(Url.RouteUrl("ShoppingCart"))')">@T("AddToCart.ViewCart")</button>
+                        <button type="button" class="btn btn-success w-100 d-flex justify-content-center text-uppercase ml-0 border-left-0" onclick="setLocation('@(Url.RouteUrl("ShoppingCart"))')">@T("AddToCart.ViewCart")</button>
                     }
                     else if (Model.CartType == ShoppingCartType.Wishlist)
                     {
-                        <button type="button" class="btn btn-info w-100 d-flex justify-content-center text-uppercase ml-0 border-left-0" onclick="setLocation('@(Url.RouteUrl("Wishlist"))')">@T("AddToCart.ViewWishlist")</button>
+                        <button type="button" class="btn btn-success w-100 d-flex justify-content-center text-uppercase ml-0 border-left-0" onclick="setLocation('@(Url.RouteUrl("Wishlist"))')">@T("AddToCart.ViewWishlist")</button>
                     }
                     else if (Model.CartType == ShoppingCartType.Auctions)
                     {
-                        <button type="button" class="btn btn-info w-100 d-flex justify-content-center text-uppercase ml-0 border-left-0" onclick="setLocation('@(Url.RouteUrl("CustomerAuctions"))')">@T("AddToCart.ViewAuctions")</button>
+                        <button type="button" class="btn btn-success w-100 d-flex justify-content-center text-uppercase ml-0 border-left-0" onclick="setLocation('@(Url.RouteUrl("CustomerAuctions"))')">@T("AddToCart.ViewAuctions")</button>
                     }
                 </div>
             </div>
