@@ -2575,7 +2575,7 @@ list settings .list__item,
 }
 
 .product-box .product-discount {
-    background-color: #7dae32;
+    background-color: #a319ff;
 }
 .product-box.grid-box .product-info {
     position: relative;
@@ -2667,7 +2667,7 @@ list settings .list__item,
 .product-box .prices .actual-price {
     font-size: 16px;
     font-weight: 500;
-    color: #17a2b8;
+    color: #117e00;
     text-align: left;
     line-height: 1;
 }
@@ -2677,7 +2677,7 @@ list settings .list__item,
     text-decoration: line-through;
     font-size: 14px;
     font-weight: 400;
-    color: #999;
+    color: #ff0000;
 }
 
 .product-box .ratings {
